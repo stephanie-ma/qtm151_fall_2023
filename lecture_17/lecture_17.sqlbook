@@ -30,12 +30,22 @@ United States Congress dataset
 
 DROP DATABASE IF EXISTS us_congress;
 -- SQLBook: Code
+<<<<<<< HEAD
 CREATE DATABASE us_congress;
 -- SQLBook: Code
 -- Active: 1699303591259@@127.0.0.1@5432@us_congress
+=======
+-- Active: 1698674191041@@127.0.0.1@5432@us_congress
+>>>>>>> upstream/main
 CREATE SCHEMA bills;
 
 CREATE SCHEMA members;
+-- SQLBook: Code
+-- Active: 1698674191041@@127.0.0.1@5432@formula1
+DROP TABLE IF EXISTS results;
+-- SQLBook: Code
+-- Active: 1698674191041@@127.0.0.1@5432@postgres
+DROP TABLE IF EXISTS races;
 -- SQLBook: Markup
 <font size = "5">
 
